@@ -11,54 +11,38 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Shanghai Jiao Tong University, B.Eng. in Microelectronics, 2023.09 - 2028.06 (expected)
+  * School of Integrated Circuits
+  * GPA: 4.07 / 4.30
+  * Rank: 1 / 89
+  * Honors: National Scholarship (top 2%), Shanghai Jiao Tong University A Scholarship
+  * Core courses: Fundamentals of Computer Architecture (99), Digital Signal Processing (96), Digital Integrated Circuit Design (95), Analog Integrated Circuit Design (95), Embedded Systems and Interface Technology (95)
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2025.03 - present: Research Assistant
+  * ICRG Lab
+  * Research focus: high-performance computing architectures, near-memory computing, and hardware-software co-design
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Architecture: CPU/GPU/NDP architecture design, memory hierarchy optimization, dataflow scheduling, pipeline design, RTL development (FPGA), performance modeling
+* Algorithm-hardware co-design: ANNS, attention sparsification, quantization and compression, mapping algorithmic properties to hardware primitives
+* Programming and frameworks: Python, C++, Verilog, Chisel, PyTorch, CUDA, Triton
+* Toolchains: Git, Linux, Cadence, Vivado
+* Domain knowledge: LLM inference, RAG systems, KV cache management, HNSW, GANNS
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* ISCA 2026 (accepted): NasZip, an NDP-accelerated approximate nearest neighbor retrieval framework, co-first author
+* ICCAD (under review): EstAtt, linear-complexity attention via sign-based estimation
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Research Assistant, ICRG Lab
+
+Awards
+======
+* National Scholarship (top 2%)
+* Shanghai Jiao Tong University A Scholarship
+* First Prize, Shandong Province, National Olympiad in Informatics, 2021

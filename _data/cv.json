@@ -1,152 +1,123 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Shuo Yang",
+    "email": "yangshuo1230@sjtu.edu.cn",
+    "phone": "(+86) 176-6261-8985",
+    "website": "https://yangshuo1230.github.io",
+    "summary": "Undergraduate student in Microelectronics at Shanghai Jiao Tong University and research assistant at the ICRG Lab, focusing on near-memory computing architecture optimization and hardware-software co-design.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "Shanghai",
+      "countryCode": "CN",
       "region": ""
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "yangshuo1230",
+        "url": "https://github.com/yangshuo1230"
       }
     ]
   },
-  "work": [],
-  "education": [
+  "work": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "name": "ICRG Lab",
+      "position": "Research Assistant",
+      "website": "",
+      "startDate": "2025-03",
+      "endDate": "",
+      "summary": "Conducting research on high-performance computing architectures, near-memory computing, and hardware-software co-design.",
+      "highlights": [
+        "Working on architecture optimization for vector retrieval, long-context inference, and model security workloads."
+      ]
     }
   ],
-  "skills": [],
+  "education": [
+    {
+      "institution": "Shanghai Jiao Tong University",
+      "area": "Microelectronics",
+      "studyType": "B.Eng.",
+      "startDate": "2023-09",
+      "endDate": "2028-06",
+      "gpa": null,
+      "courses": [
+        "GPA: 4.07/4.30",
+        "Rank: 1/89",
+        "Fundamentals of Computer Architecture (99)",
+        "Digital Signal Processing (96)",
+        "Digital Integrated Circuit Design (95)",
+        "Analog Integrated Circuit Design (95)",
+        "Embedded Systems and Interface Technology (95)"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Architecture",
+      "keywords": [
+        "CPU/GPU/NDP",
+        "Memory hierarchy optimization",
+        "Dataflow scheduling",
+        "Pipeline design",
+        "RTL development",
+        "Performance modeling"
+      ]
+    },
+    {
+      "name": "Algorithm-hardware co-design",
+      "keywords": [
+        "ANNS",
+        "Attention sparsification",
+        "Quantization and compression",
+        "Hardware-software co-optimization"
+      ]
+    },
+    {
+      "name": "Development stack",
+      "keywords": [
+        "Python",
+        "C++",
+        "Verilog",
+        "Chisel",
+        "PyTorch",
+        "CUDA",
+        "Triton",
+        "Git",
+        "Linux",
+        "Cadence",
+        "Vivado"
+      ]
+    }
+  ],
   "languages": [],
   "interests": [],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "NasZip: NDP-Accelerated Approximate Nearest Neighbor Retrieval Framework",
+      "publisher": "ISCA 2026 (accepted)",
+      "releaseDate": "2026-01-01",
+      "website": "",
+      "summary": "An NDP-accelerated ANNS framework for RAG systems, co-first author."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "EstAtt: Linear-Complexity Attention via Sign-Based Estimation",
+      "publisher": "ICCAD (under review)",
+      "releaseDate": "2026-01-01",
+      "website": "",
+      "summary": "A sign-based estimation framework for linear-complexity attention."
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "name": "NasZip: NDP-Accelerated ANNS for RAG Systems",
+      "event": "ICRG Lab & Lenovo",
+      "date": "2025-03-01",
+      "location": "Shanghai, China",
+      "description": "Hardware-software co-optimization research for ANNS in RAG systems."
     }
   ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "teaching": [],
+  "portfolio": []
 }
